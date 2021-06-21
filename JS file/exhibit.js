@@ -50,8 +50,11 @@ $(function() {
         },
 
     });
-    var virus_node = [];
-    var host_node = [];
+
+    var virus_node = []; //Node represents virus group
+    var host_node = []; //Node represents host group
+
+    //Add corresponding nodes to each array
     for (let i = 0; i < json_data['elements']['nodes'].length; i++) {
         cy.add([{
             group: 'nodes',
@@ -65,6 +68,7 @@ $(function() {
         }
     }
 
+    //Connect edges between nodes
     for (let i = 0; i < json_data['elements']['edges'].length; i++) {
         cy.add([{
             group: 'edges',
@@ -73,6 +77,7 @@ $(function() {
     }
 
 
+    //Assign different colors to different nodes
     for (let j = 0; j < virus_node.length; j++) {
         changenodecolor(virus_node[j].data['id'], 'green');
 
@@ -98,4 +103,69 @@ $(function() {
             }
         }
     }
-})
+
+    cy.on('mouseover', 'node', function(event) {
+        var evtTarget = event.target;
+        evtTarget.qtip({
+            content: this.id(),
+            show: {
+                event: event.type,
+                ready: true
+            },
+            hide: {
+                event: "mouseout unfocus"
+            }
+        }, event);
+    });
+
+    cy.on('click', 'node', function(evt) {
+        // console.log('clicked ' + this.id());
+        var div = document.createElement('div');
+        var button = document.createElement('BUTTON');
+        var text = document.createTextNode("Delete");
+        button.appendChild(text);
+        button.style.position = 'absolute';
+        button.style.left = 0;
+        button.style.margin = "5px";
+        button.style.padding = "3px";
+        div.style.height = "150px";
+        div.style.borderStyle = "solid";
+        div.style.borderColor = "grey";
+        div.style.overflowY = "scroll";
+        $(div).addClass("inner").html("Node: " + evt.target.id());
+        $('#info').append(div);
+        $(div).append(button);
+        var divs = document.getElementsByTagName('div');
+        for (let i = 0; i < divs.length; i++) {
+            if (divs[i].innerHTML.indexOf(evt.target) == -1) {
+                console.log('hello');
+            }
+        }
+        $(document).on('click', ':button', function() {
+            $(this).parent().remove();
+        });
+    });
+
+    cy.on('click', 'edge', function(evt) {
+        // console.log('clicked ' + this.id());
+        var div = document.createElement('div');
+        var button = document.createElement('BUTTON');
+        var text = document.createTextNode("Delete");
+        button.appendChild(text);
+        button.style.position = 'absolute';
+        button.style.left = 0;
+        button.style.margin = "5px";
+        button.style.padding = "3px";
+        div.style.height = "150px";
+        div.style.borderStyle = "solid";
+        div.style.borderColor = "grey";
+        div.style.overflowY = "scroll";
+
+        $(div).addClass("inner").html("Edge: " + evt.target.id());
+        $('#info').append(div);
+        $(div).append(button);
+        $(document).on('click', ':button', function() {
+            $(this).parent().remove();
+        });
+    });
+});
