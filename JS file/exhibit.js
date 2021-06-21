@@ -53,6 +53,18 @@ $(function() {
 
     var virus_node = []; //Node represents virus group
     var host_node = []; //Node represents host group
+    var origin_edge = [];
+    var predicted_edge = [];
+    var node_info_map = new Map();
+
+    for (let i = 0; i < json_data['elements']['nodes'].length; i++) {
+        // node_info_map[String(json_data['elements']['nodes'][i].data['id'])] = String(json_data['elements']['nodes'][i].data['disp'])
+        node_info_map.set(json_data['elements']['nodes'][i].data['id'], json_data['elements']['nodes'][i].data['disp'])
+    }
+
+    node_info_map.set('66', 'hello')
+    console.log(node_info_map.get('66'));
+    console.log(node_info_map);
 
     //Add corresponding nodes to each array
     for (let i = 0; i < json_data['elements']['nodes'].length; i++) {
@@ -60,7 +72,7 @@ $(function() {
             group: 'nodes',
             data: { id: json_data['elements']['nodes'][i].data['id'], name: json_data['elements']['nodes'][i].data['disp'] },
             position: { x: json_data['elements']['nodes'][i].position['x'], y: json_data['elements']['nodes'][i].position['y'] }
-        }])
+        }]);
         if (json_data['elements']['nodes'][i].data['group'] == 'virus protein') {
             virus_node.push(json_data['elements']['nodes'][i]);
         } else {
@@ -73,19 +85,25 @@ $(function() {
         cy.add([{
             group: 'edges',
             data: { id: json_data['elements']['edges'][i].data['id'], source: json_data['elements']['edges'][i].data['source'], target: json_data['elements']['edges'][i].data['target'] },
-        }])
+        }]);
+        if (json_data['elements']['edges'][i].data['etype'] == 'original') {
+            origin_edge.push(json_data['elements']['edges'][i]);
+        } else {
+            predicted_edge.push(json_data['elements']['edges'][i]);
+        }
     }
+
 
 
     //Assign different colors to different nodes
-    for (let j = 0; j < virus_node.length; j++) {
-        changenodecolor(virus_node[j].data['id'], 'green');
+    // for (let j = 0; j < virus_node.length; j++) {
+    //     changenodecolor(virus_node[j].data['id'], 'green');
 
-    }
+    // }
 
-    for (let k = 0; k < host_node.length; k++) {
-        changenodecolor(host_node[k].data['id'], 'blue');
-    }
+    // for (let k = 0; k < host_node.length; k++) {
+    //     changenodecolor(host_node[k].data['id'], 'blue');
+    // }
 
     function changenodecolor(id, color) {
         for (let i = 0; i < cy.elements('node').length; i++) {
@@ -119,6 +137,7 @@ $(function() {
     });
 
     cy.on('click', 'node', function(evt) {
+        console.log(evt.target);
         // console.log('clicked ' + this.id());
         var div = document.createElement('div');
         var button = document.createElement('BUTTON');
@@ -132,13 +151,13 @@ $(function() {
         div.style.borderStyle = "solid";
         div.style.borderColor = "grey";
         div.style.overflowY = "scroll";
-        $(div).addClass("inner").html("Node: " + evt.target.id());
+        $(div).addClass("inner").html("Node: " + node_info_map.get(evt.target.id()));
         $('#info').append(div);
         $(div).append(button);
         var divs = document.getElementsByTagName('div');
         for (let i = 0; i < divs.length; i++) {
             if (divs[i].innerHTML.indexOf(evt.target) == -1) {
-                console.log('hello');
+
             }
         }
         $(document).on('click', ':button', function() {
