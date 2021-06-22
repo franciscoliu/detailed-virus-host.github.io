@@ -62,9 +62,6 @@ $(function() {
         node_info_map.set(json_data['elements']['nodes'][i].data['id'], json_data['elements']['nodes'][i].data['disp'])
     }
 
-    node_info_map.set('66', 'hello')
-    console.log(node_info_map.get('66'));
-    console.log(node_info_map);
 
     //Add corresponding nodes to each array
     for (let i = 0; i < json_data['elements']['nodes'].length; i++) {
@@ -125,7 +122,7 @@ $(function() {
     cy.on('mouseover', 'node', function(event) {
         var evtTarget = event.target;
         evtTarget.qtip({
-            content: this.id(),
+            content: node_info_map.get(this.id()),
             show: {
                 event: event.type,
                 ready: true
@@ -147,7 +144,7 @@ $(function() {
         button.style.left = 0;
         button.style.margin = "5px";
         button.style.padding = "3px";
-        div.style.height = "150px";
+        div.style.height = "160px";
         div.style.borderStyle = "solid";
         div.style.borderColor = "grey";
         div.style.overflowY = "scroll";
