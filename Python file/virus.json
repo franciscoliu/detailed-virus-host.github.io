@@ -1,0 +1,154 @@
+[{
+        "M protein": [{
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047210.1"
+            },
+            {
+                "Human coronavirus HKU1": "YP_173241.1"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828855.1"
+            },
+            {
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009724393.1"
+            },
+            {
+                "Human coronavirus OC43": "YP_009555244.1"
+            },
+            {
+                "Human coronavirus 229E": "NP_073555.1"
+            },
+            {
+                "Human coronavirus NL63": "YP_003770.1"
+            }
+        ]
+    },
+    {
+        "N protein": [{
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047211.1"
+            },
+            {
+                "Human coronavirus HKU1": "YP_173242.1"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828858.1"
+            },
+            {
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009724397.2"
+            },
+            {
+                "Human coronavirus OC43": "YP_009555245.1"
+            },
+            {
+                "Human coronavirus 229E": "NP_073556.1"
+            },
+            {
+                "Human coronavirus NL63": "YP_003771.1"
+            }
+        ]
+    },
+    {
+        "nsp1": [{
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009724389.1:1-180"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828860.2"
+            },
+            {
+                "Human coronavirus HKU1": "YP_460018.1"
+            },
+            {
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047229.1"
+            }
+        ]
+    },
+    {
+        "nsp15": [{
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009725310.1"
+            },
+            {
+                "Human coronavirus HKU1": "YP_460022.1"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828872.1"
+            }
+        ]
+    },
+    {
+        "ORF3b": [{
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828853.1"
+            },
+            {
+                "Human coronavirus NL63": "YP_003768.1"
+            }
+        ]
+    },
+    {
+        "ORF4a": [{
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047206.1"
+            },
+            {
+                "Human coronavirus 229E": "NP_073552.1"
+            }
+        ]
+    },
+    {
+        "ORF4b": [{
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047207.1"
+            },
+            {
+                "Human coronavirus 229E": "NP_073553.1"
+            }
+        ]
+    },
+    {
+        "ORF6": [{
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828856.1"
+            },
+            {
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009724394.1"
+            }
+        ]
+    },
+    {
+        "PLpro": [{
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047215.1:631-947"
+            },
+            {
+                "Human coronavirus HKU1": "YP_460024.1:840-1138"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828862.2:723-1040"
+            },
+            {
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009742610.1:746-1064"
+            },
+            {
+                "Human coronavirus OC43": "YP_009555248.1:716-1017"
+            }
+        ]
+    },
+    {
+        "Spike": [{
+                "Human coronavirus OC43": "YP_009555241.1"
+            },
+            {
+                "Human coronavirus HKU1": "YP_173238.1"
+            },
+            {
+                "Severe acute respiratory syndrome coronavirus 2": "YP_009724390.1"
+            },
+            {
+                "Severe acute respiratory syndrome-related coronavirus": "NP_828851.1"
+            },
+            {
+                "Middle East respiratory syndrome-related coronavirus": "YP_009047204.1"
+            },
+            {
+                "Human coronavirus 229E": "NP_073551.1"
+            },
+            {
+                "Human coronavirus NL63": "YP_003767.1"
+            }
+        ]
+    }
+]
