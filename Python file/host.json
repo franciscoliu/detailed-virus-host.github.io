@@ -1,625 +1,197 @@
-[{
-        "ACE2": [{
-                "Homo sapiens": "NP_001358344.1"
-            },
-            {
-                "Mus musculus": "NP_081562.2"
-            },
-            {
-                "Rattus norvegicus": "NP_001012006.1"
-            },
-            {
-                "Canis lupus familiaris": "NP_001158732.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010991717.1"
-            },
-            {
-                "Felis catus": "NP_001034545.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005316051.3"
-            },
-            {
-                "Bos taurus": "NP_001019673.2"
-            },
-            {
-                "Pan troglodytes": "XP_016798468.1"
-            },
-            {
-                "Gallus gallus": "QEQ50331.1"
-            },
-            {
-                "Oryctolagus cuniculus": "QHX39726.1"
-            },
-            {
-                "Equus caballus": "XP_001490241.1"
-            },
-            {
-                "Macaca mulatta": "ACI04577.1"
-            },
-            {
-                "Ovis aries": "XP_011961657.1"
-            },
-            {
-                "Sus scrofa domesticus": "ASK12083.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032963186.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_005074266.1"
-            }
-        ]
-    },
-    {
-        "DPP4": [{
-                "Homo sapiens": "AAH65265.1"
-            },
-            {
-                "Mus musculus": "NP_034204.1"
-            },
-            {
-                "Rattus norvegicus": "NP_036921.1"
-            },
-            {
-                "Camelus dromedarius": "KAB1278479.1"
-            },
-            {
-                "Felis catus": "NP_001009838.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005315799.1"
-            },
-            {
-                "Bos taurus": "NP_776464.1"
-            },
-            {
-                "Pan troglodytes": "JAA42044.1"
-            },
-            {
-                "Gallus gallus": "NP_001026426.2"
-            },
-            {
-                "Equus caballus": "XP_023478786.1"
-            },
-            {
-                "Macaca mulatta": "NP_001034279.2"
-            },
-            {
-                "Ovis aries": "XP_004004709.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032967904.1"
-            },
-            {
-                "Mesocricetus auratus": "NP_001297500.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_038302823.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_008256890.1"
-            }
-        ]
-    },
-    {
-        "IRF3": [{
-                "Homo sapiens": "AAH09395.1"
-            },
-            {
-                "Mus musculus": "NP_058545.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001006970.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010991480.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_022279489.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_021589862.1"
-            },
-            {
-                "Bos taurus": "NP_001025016.1"
-            },
-            {
-                "Pan troglodytes": "XP_016792048.1"
-            },
-            {
-                "Gallus gallus": "NP_990703.1"
-            },
-            {
-                "Equus caballus": "XP_023505922.1"
-            },
-            {
-                "Macaca mulatta": "XP_014979893.2"
-            },
-            {
-                "Ovis aries": "XP_004015427.2"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032984533.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_012979715.1"
-            },
-            {
-                "Felis catus": "XP_003997552.3"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_008251035.1"
-            }
-        ]
-    },
-    {
-        "IRF7": [{
-                "Homo sapiens": "AAI36556.1"
-            },
-            {
-                "Mus musculus": "AAI38800.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001028863.1"
-            },
-            {
-                "Felis catus": "XP_011285475.1"
-            },
-            {
-                "Camelus dromedarius": "XP_031304210.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_013221293.1"
-            },
-            {
-                "Bos taurus": "AAI51519.1"
-            },
-            {
-                "Pan troglodytes": "XP_016775486.1"
-            },
-            {
-                "Gallus gallus": "QDO67136.1"
-            },
-            {
-                "Equus caballus": "XP_023510517.1"
-            },
-            {
-                "Macaca mulatta": "XP_028688388.1"
-            },
-            {
-                "Ovis aries": "XP_027815762.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032976416.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_005063402.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_038279967.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_008251920.1"
-            }
-        ]
-    },
-    {
-        "IRF9": [{
-                "Homo sapiens": "NP_006075.3"
-            },
-            {
-                "Mus musculus": "AAH05435.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001012041.1"
-            },
-            {
-                "Felis catus": "XP_019688408.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010994069.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_860263.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_013219932.1"
-            },
-            {
-                "Bos taurus": "AAI02048.1"
-            },
-            {
-                "Pan troglodytes": "XP_016781408.2"
-            },
-            {
-                "Gallus gallus": "XP_024997927.1"
-            },
-            {
-                "Equus caballus": "XP_005603301.2"
-            },
-            {
-                "Macaca mulatta": "NP_001247598.1"
-            },
-            {
-                "Ovis aries": "XP_014952351.1"
-            },
-            {
-                "Sus scrofa domesticus": "JAG69453.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032962782.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_021091897.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_017203706.1"
-            }
-        ]
-    },
-    {
-        "MAVS": [{
-                "Homo sapiens": "NP_065797.2"
-            },
-            {
-                "Mus musculus": "NP_001193314.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001005556.1"
-            },
-            {
-                "Felis catus": "XP_019682345.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010986541.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_022264524.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_013211913.1"
-            },
-            {
-                "Bos taurus": "XP_024856607.1"
-            },
-            {
-                "Pan troglodytes": "XP_024207931.1"
-            },
-            {
-                "Gallus gallus": "NP_001012911.1"
-            },
-            {
-                "Equus caballus": "XP_023481936.1"
-            },
-            {
-                "Macaca mulatta": "AGF94765.1"
-            },
-            {
-                "Ovis aries": "XP_004014409.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "AYU75377.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_012967838.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_002710934.1"
-            }
-        ]
-    },
-    {
-        "MDA5": [{
-                "Homo sapiens": "AAG34368.1"
-            },
-            {
-                "Mus musculus": "ABO33314.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001102669.1"
-            },
-            {
-                "Felis catus": "BAX03651.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_545493.2"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_013211225.1"
-            },
-            {
-                "Bos taurus": "AYD78163.1"
-            },
-            {
-                "Pan troglodytes": "XP_016805442.2"
-            },
-            {
-                "Gallus gallus": "NP_001180567.1"
-            },
-            {
-                "Equus caballus": "XP_001494380.1"
-            },
-            {
-                "Macaca mulatta": "ABI33114.1"
-            },
-            {
-                "Mesocricetus auratus": "NP_001297504.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010983871.2"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_002712267.1"
-            },
-            {
-                "Ovis aries": "XP_004004704.1"
-            }
-        ]
-    },
-    {
-        "NF-kB": [{
-                "Homo sapiens": "NP_001369554.1"
-            },
-            {
-                "Mus musculus": "AAA40415.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001263640.1"
-            },
-            {
-                "Camelus dromedarius": "KAB1282111.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005325802.1"
-            },
-            {
-                "Bos taurus": "NP_001069877.1"
-            },
-            {
-                "Pan troglodytes": "XP_016807415.1"
-            },
-            {
-                "Gallus gallus": "NP_990465.1"
-            },
-            {
-                "Equus caballus": "XP_023493399.1"
-            },
-            {
-                "Macaca mulatta": "NP_001252982.1"
-            },
-            {
-                "Ovis aries": "XP_004009716.2"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032962399.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_005082030.1"
-            }
-        ]
-    },
-    {
-        "PRKRA": [{
-                "Homo sapiens": "CAG38556.1"
-            },
-            {
-                "Mus musculus": "NP_036001.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001019951.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010989658.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_545545.2"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005324711.1"
-            },
-            {
-                "Bos taurus": "NP_001039335.1"
-            },
-            {
-                "Pan troglodytes": "XP_016804821.1"
-            },
-            {
-                "Equus caballus": "XP_023477834.1"
-            },
-            {
-                "Macaca mulatta": "NP_001247776.1"
-            },
-            {
-                "Ovis aries": "XP_004004595.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032968387.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_005065183.1"
-            },
-            {
-                "Felis catus": "XP_023115272.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_002712359.1"
-            }
-        ]
-    },
-    {
-        "RIG-I": [{
-                "Homo sapiens": "NP_055129.2"
-            },
-            {
-                "Mus musculus": "NP_766277.3"
-            },
-            {
-                "Canis lupus familiaris": "AVE15784.1"
-            },
-            {
-                "Pan troglodytes": "PNI99308.1"
-            },
-            {
-                "Macaca mulatta": "NP_001036133.1"
-            },
-            {
-                "Mesocricetus auratus": "NP_001297482.1"
-            },
-            {
-                "Rattus norvegicus": "XP_038965366.1"
-            }
-        ]
-    },
-    {
-        "STAT1": [{
-                "Homo sapiens": "NP_009330.1"
-            },
-            {
-                "Mus musculus": "AAA19454.1"
-            },
-            {
-                "Rattus norvegicus": "AAF20200.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010978013.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_848353.1"
-            },
-            {
-                "Felis catus": "XP_006935505.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005324423.1"
-            },
-            {
-                "Bos taurus": "XP_005202627.2"
-            },
-            {
-                "Pan troglodytes": "XP_016805707.1"
-            },
-            {
-                "Gallus gallus": "NP_001012932.1"
-            },
-            {
-                "Equus caballus": "XP_023478001.1"
-            },
-            {
-                "Macaca mulatta": "NP_001248543.1"
-            },
-            {
-                "Ovis aries": "XP_011966012.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032967722.1"
-            },
-            {
-                "Mesocricetus auratus": "NP_001268614.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_002712392.2"
-            }
-        ]
-    },
-    {
-        "STAT2": [{
-                "Homo sapiens": "AAA98760.1"
-            },
-            {
-                "Mus musculus": "AAD38329.1"
-            },
-            {
-                "Rattus norvegicus": "NP_001011905.1"
-            },
-            {
-                "Felis catus": "XP_003988942.1"
-            },
-            {
-                "Camelus dromedarius": "XP_010975157.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_538232.2"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_013218490.1"
-            },
-            {
-                "Bos taurus": "NP_001192618.1"
-            },
-            {
-                "Pan troglodytes": "XP_009423402.2"
-            },
-            {
-                "Gallus gallus": "XP_015155769.1"
-            },
-            {
-                "Equus caballus": "XP_001504891.1"
-            },
-            {
-                "Macaca mulatta": "NP_001253856.1"
-            },
-            {
-                "Ovis aries": "XP_004006629.2"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032973600.1"
-            },
-            {
-                "Mesocricetus auratus": "NP_001268551.1"
-            }
-        ]
-    },
-    {
-        "TBK1": [{
-                "Homo sapiens": "NP_037386.1"
-            },
-            {
-                "Mus musculus": "NP_062760.3"
-            },
-            {
-                "Rattus norvegicus": "NP_001100256.1"
-            },
-            {
-                "Canis lupus familiaris": "XP_022279864.1"
-            },
-            {
-                "Camelus dromedarius": "XP_031318632.1"
-            },
-            {
-                "Felis catus": "XP_023112961.1"
-            },
-            {
-                "Ictidomys tridecemlineatus": "XP_005328751.1"
-            },
-            {
-                "Bos taurus": "NP_001179684.1"
-            },
-            {
-                "Pan troglodytes": "JAA43173.1"
-            },
-            {
-                "Gallus gallus": "NP_001186487.1"
-            },
-            {
-                "Equus caballus": "XP_023499698.1"
-            },
-            {
-                "Macaca mulatta": "NP_001248122.1"
-            },
-            {
-                "Ovis aries": "XP_014950255.1"
-            },
-            {
-                "Rhinolophus ferrumequinum": "XP_032972251.1"
-            },
-            {
-                "Mesocricetus auratus": "XP_021088452.1"
-            },
-            {
-                "Oryctolagus cuniculus": "XP_008254959.1"
-            }
-        ]
-    }
-]
+{
+    "ACE2, Homo sapiens": "NP_001358344.1",
+    "ACE2, Mus musculus": "NP_081562.2",
+    "ACE2, Rattus norvegicus": "NP_001012006.1",
+    "ACE2, Canis lupus familiaris": "NP_001158732.1",
+    "ACE2, Camelus dromedarius": "XP_010991717.1",
+    "ACE2, Felis catus": "NP_001034545.1",
+    "ACE2, Ictidomys tridecemlineatus": "XP_005316051.3",
+    "ACE2, Bos taurus": "NP_001019673.2",
+    "ACE2, Pan troglodytes": "XP_016798468.1",
+    "ACE2, Gallus gallus": "QEQ50331.1",
+    "ACE2, Oryctolagus cuniculus": "QHX39726.1",
+    "ACE2, Equus caballus": "XP_001490241.1",
+    "ACE2, Macaca mulatta": "ACI04577.1",
+    "ACE2, Ovis aries": "XP_011961657.1",
+    "ACE2, Sus scrofa domesticus": "ASK12083.1",
+    "ACE2, Rhinolophus ferrumequinum": "XP_032963186.1",
+    "ACE2, Mesocricetus auratus": "XP_005074266.1",
+    "DPP4, Homo sapiens": "AAH65265.1",
+    "DPP4, Mus musculus": "NP_034204.1",
+    "DPP4, Rattus norvegicus": "NP_036921.1",
+    "DPP4, Camelus dromedarius": "KAB1278479.1",
+    "DPP4, Felis catus": "NP_001009838.1",
+    "DPP4, Ictidomys tridecemlineatus": "XP_005315799.1",
+    "DPP4, Bos taurus": "NP_776464.1",
+    "DPP4, Pan troglodytes": "JAA42044.1",
+    "DPP4, Gallus gallus": "NP_001026426.2",
+    "DPP4, Equus caballus": "XP_023478786.1",
+    "DPP4, Macaca mulatta": "NP_001034279.2",
+    "DPP4, Ovis aries": "XP_004004709.1",
+    "DPP4, Rhinolophus ferrumequinum": "XP_032967904.1",
+    "DPP4, Mesocricetus auratus": "NP_001297500.1",
+    "DPP4, Canis lupus familiaris": "XP_038302823.1",
+    "DPP4, Oryctolagus cuniculus": "XP_008256890.1",
+    "IRF3, Homo sapiens": "AAH09395.1",
+    "IRF3, Mus musculus": "NP_058545.1",
+    "IRF3, Rattus norvegicus": "NP_001006970.1",
+    "IRF3, Camelus dromedarius": "XP_010991480.1",
+    "IRF3, Canis lupus familiaris": "XP_022279489.1",
+    "IRF3, Ictidomys tridecemlineatus": "XP_021589862.1",
+    "IRF3, Bos taurus": "NP_001025016.1",
+    "IRF3, Pan troglodytes": "XP_016792048.1",
+    "IRF3, Gallus gallus": "NP_990703.1",
+    "IRF3, Equus caballus": "XP_023505922.1",
+    "IRF3, Macaca mulatta": "XP_014979893.2",
+    "IRF3, Ovis aries": "XP_004015427.2",
+    "IRF3, Rhinolophus ferrumequinum": "XP_032984533.1",
+    "IRF3, Mesocricetus auratus": "XP_012979715.1",
+    "IRF3, Felis catus": "XP_003997552.3",
+    "IRF3, Oryctolagus cuniculus": "XP_008251035.1",
+    "IRF7, Homo sapiens": "AAI36556.1",
+    "IRF7, Mus musculus": "AAI38800.1",
+    "IRF7, Rattus norvegicus": "NP_001028863.1",
+    "IRF7, Felis catus": "XP_011285475.1",
+    "IRF7, Camelus dromedarius": "XP_031304210.1",
+    "IRF7, Ictidomys tridecemlineatus": "XP_013221293.1",
+    "IRF7, Bos taurus": "AAI51519.1",
+    "IRF7, Pan troglodytes": "XP_016775486.1",
+    "IRF7, Gallus gallus": "QDO67136.1",
+    "IRF7, Equus caballus": "XP_023510517.1",
+    "IRF7, Macaca mulatta": "XP_028688388.1",
+    "IRF7, Ovis aries": "XP_027815762.1",
+    "IRF7, Rhinolophus ferrumequinum": "XP_032976416.1",
+    "IRF7, Mesocricetus auratus": "XP_005063402.1",
+    "IRF7, Canis lupus familiaris": "XP_038279967.1",
+    "IRF7, Oryctolagus cuniculus": "XP_008251920.1",
+    "IRF9, Homo sapiens": "NP_006075.3",
+    "IRF9, Mus musculus": "AAH05435.1",
+    "IRF9, Rattus norvegicus": "NP_001012041.1",
+    "IRF9, Felis catus": "XP_019688408.1",
+    "IRF9, Camelus dromedarius": "XP_010994069.1",
+    "IRF9, Canis lupus familiaris": "XP_860263.1",
+    "IRF9, Ictidomys tridecemlineatus": "XP_013219932.1",
+    "IRF9, Bos taurus": "AAI02048.1",
+    "IRF9, Pan troglodytes": "XP_016781408.2",
+    "IRF9, Gallus gallus": "XP_024997927.1",
+    "IRF9, Equus caballus": "XP_005603301.2",
+    "IRF9, Macaca mulatta": "NP_001247598.1",
+    "IRF9, Ovis aries": "XP_014952351.1",
+    "IRF9, Sus scrofa domesticus": "JAG69453.1",
+    "IRF9, Rhinolophus ferrumequinum": "XP_032962782.1",
+    "IRF9, Mesocricetus auratus": "XP_021091897.1",
+    "IRF9, Oryctolagus cuniculus": "XP_017203706.1",
+    "MAVS, Homo sapiens": "NP_065797.2",
+    "MAVS, Mus musculus": "NP_001193314.1",
+    "MAVS, Rattus norvegicus": "NP_001005556.1",
+    "MAVS, Felis catus": "XP_019682345.1",
+    "MAVS, Camelus dromedarius": "XP_010986541.1",
+    "MAVS, Canis lupus familiaris": "XP_022264524.1",
+    "MAVS, Ictidomys tridecemlineatus": "XP_013211913.1",
+    "MAVS, Bos taurus": "XP_024856607.1",
+    "MAVS, Pan troglodytes": "XP_024207931.1",
+    "MAVS, Gallus gallus": "NP_001012911.1",
+    "MAVS, Equus caballus": "XP_023481936.1",
+    "MAVS, Macaca mulatta": "AGF94765.1",
+    "MAVS, Ovis aries": "XP_004014409.1",
+    "MAVS, Rhinolophus ferrumequinum": "AYU75377.1",
+    "MAVS, Mesocricetus auratus": "XP_012967838.1",
+    "MAVS, Oryctolagus cuniculus": "XP_002710934.1",
+    "MDA5, Homo sapiens": "AAG34368.1",
+    "MDA5, Mus musculus": "ABO33314.1",
+    "MDA5, Rattus norvegicus": "NP_001102669.1",
+    "MDA5, Felis catus": "BAX03651.1",
+    "MDA5, Canis lupus familiaris": "XP_545493.2",
+    "MDA5, Ictidomys tridecemlineatus": "XP_013211225.1",
+    "MDA5, Bos taurus": "AYD78163.1",
+    "MDA5, Pan troglodytes": "XP_016805442.2",
+    "MDA5, Gallus gallus": "NP_001180567.1",
+    "MDA5, Equus caballus": "XP_001494380.1",
+    "MDA5, Macaca mulatta": "ABI33114.1",
+    "MDA5, Mesocricetus auratus": "NP_001297504.1",
+    "MDA5, Camelus dromedarius": "XP_010983871.2",
+    "MDA5, Oryctolagus cuniculus": "XP_002712267.1",
+    "MDA5, Ovis aries": "XP_004004704.1",
+    "NF-kB, Homo sapiens": "NP_001369554.1",
+    "NF-kB, Mus musculus": "AAA40415.1",
+    "NF-kB, Rattus norvegicus": "NP_001263640.1",
+    "NF-kB, Camelus dromedarius": "KAB1282111.1",
+    "NF-kB, Ictidomys tridecemlineatus": "XP_005325802.1",
+    "NF-kB, Bos taurus": "NP_001069877.1",
+    "NF-kB, Pan troglodytes": "XP_016807415.1",
+    "NF-kB, Gallus gallus": "NP_990465.1",
+    "NF-kB, Equus caballus": "XP_023493399.1",
+    "NF-kB, Macaca mulatta": "NP_001252982.1",
+    "NF-kB, Ovis aries": "XP_004009716.2",
+    "NF-kB, Rhinolophus ferrumequinum": "XP_032962399.1",
+    "NF-kB, Mesocricetus auratus": "XP_005082030.1",
+    "PRKRA, Homo sapiens": "CAG38556.1",
+    "PRKRA, Mus musculus": "NP_036001.1",
+    "PRKRA, Rattus norvegicus": "NP_001019951.1",
+    "PRKRA, Camelus dromedarius": "XP_010989658.1",
+    "PRKRA, Canis lupus familiaris": "XP_545545.2",
+    "PRKRA, Ictidomys tridecemlineatus": "XP_005324711.1",
+    "PRKRA, Bos taurus": "NP_001039335.1",
+    "PRKRA, Pan troglodytes": "XP_016804821.1",
+    "PRKRA, Equus caballus": "XP_023477834.1",
+    "PRKRA, Macaca mulatta": "NP_001247776.1",
+    "PRKRA, Ovis aries": "XP_004004595.1",
+    "PRKRA, Rhinolophus ferrumequinum": "XP_032968387.1",
+    "PRKRA, Mesocricetus auratus": "XP_005065183.1",
+    "PRKRA, Felis catus": "XP_023115272.1",
+    "PRKRA, Oryctolagus cuniculus": "XP_002712359.1",
+    "RIG-I, Homo sapiens": "NP_055129.2",
+    "RIG-I, Mus musculus": "NP_766277.3",
+    "RIG-I, Canis lupus familiaris": "AVE15784.1",
+    "RIG-I, Pan troglodytes": "PNI99308.1",
+    "RIG-I, Macaca mulatta": "NP_001036133.1",
+    "RIG-I, Mesocricetus auratus": "NP_001297482.1",
+    "RIG-I, Rattus norvegicus": "XP_038965366.1",
+    "STAT1, Homo sapiens": "NP_009330.1",
+    "STAT1, Mus musculus": "AAA19454.1",
+    "STAT1, Rattus norvegicus": "AAF20200.1",
+    "STAT1, Camelus dromedarius": "XP_010978013.1",
+    "STAT1, Canis lupus familiaris": "XP_848353.1",
+    "STAT1, Felis catus": "XP_006935505.1",
+    "STAT1, Ictidomys tridecemlineatus": "XP_005324423.1",
+    "STAT1, Bos taurus": "XP_005202627.2",
+    "STAT1, Pan troglodytes": "XP_016805707.1",
+    "STAT1, Gallus gallus": "NP_001012932.1",
+    "STAT1, Equus caballus": "XP_023478001.1",
+    "STAT1, Macaca mulatta": "NP_001248543.1",
+    "STAT1, Ovis aries": "XP_011966012.1",
+    "STAT1, Rhinolophus ferrumequinum": "XP_032967722.1",
+    "STAT1, Mesocricetus auratus": "NP_001268614.1",
+    "STAT1, Oryctolagus cuniculus": "XP_002712392.2",
+    "STAT2, Homo sapiens": "AAA98760.1",
+    "STAT2, Mus musculus": "AAD38329.1",
+    "STAT2, Rattus norvegicus": "NP_001011905.1",
+    "STAT2, Felis catus": "XP_003988942.1",
+    "STAT2, Camelus dromedarius": "XP_010975157.1",
+    "STAT2, Canis lupus familiaris": "XP_538232.2",
+    "STAT2, Ictidomys tridecemlineatus": "XP_013218490.1",
+    "STAT2, Bos taurus": "NP_001192618.1",
+    "STAT2, Pan troglodytes": "XP_009423402.2",
+    "STAT2, Gallus gallus": "XP_015155769.1",
+    "STAT2, Equus caballus": "XP_001504891.1",
+    "STAT2, Macaca mulatta": "NP_001253856.1",
+    "STAT2, Ovis aries": "XP_004006629.2",
+    "STAT2, Rhinolophus ferrumequinum": "XP_032973600.1",
+    "STAT2, Mesocricetus auratus": "NP_001268551.1",
+    "TBK1, Homo sapiens": "NP_037386.1",
+    "TBK1, Mus musculus": "NP_062760.3",
+    "TBK1, Rattus norvegicus": "NP_001100256.1",
+    "TBK1, Canis lupus familiaris": "XP_022279864.1",
+    "TBK1, Camelus dromedarius": "XP_031318632.1",
+    "TBK1, Felis catus": "XP_023112961.1",
+    "TBK1, Ictidomys tridecemlineatus": "XP_005328751.1",
+    "TBK1, Bos taurus": "NP_001179684.1",
+    "TBK1, Pan troglodytes": "JAA43173.1",
+    "TBK1, Gallus gallus": "NP_001186487.1",
+    "TBK1, Equus caballus": "XP_023499698.1",
+    "TBK1, Macaca mulatta": "NP_001248122.1",
+    "TBK1, Ovis aries": "XP_014950255.1",
+    "TBK1, Rhinolophus ferrumequinum": "XP_032972251.1",
+    "TBK1, Mesocricetus auratus": "XP_021088452.1",
+    "TBK1, Oryctolagus cuniculus": "XP_008254959.1"
+}

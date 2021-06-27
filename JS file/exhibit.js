@@ -1,4 +1,6 @@
 var json_data;
+var host;
+var virus;
 $.ajaxSettings.async = false;
 
 //getJSON from github and restore into a variable
@@ -12,10 +14,21 @@ function getjson(data) {
     json_data = data;
 }
 
+///Get data from local json file
+$.getJSON("./Python file/host.json", (data) => {
+    // c = data.responseJSON;
+    host = data;
+});
+
+$.getJSON("./Python file/virus.json", (data) => {
+    // c = data.responseJSON;
+    virus = data;
+});
 $.ajaxSettings.async = true;
 
-console.log(json_data['elements']['nodes']);
-console.log(json_data['elements']['edges']);
+// console.log(host);
+// console.log(json_data['elements']['nodes']);
+// console.log(json_data['elements']['edges']);
 // console.log(json_data['elements']['edges'][0].position['x']);
 
 $(function() {
@@ -134,14 +147,14 @@ $(function() {
     });
 
     cy.on('click', 'node', function(evt) {
-        console.log(evt.target);
+        // console.log(evt.target);
         // console.log('clicked ' + this.id());
         var div = document.createElement('div');
-        var button = document.createElement('BUTTON');
-        var text = document.createTextNode("Delete");
+        var button = document.createElement('BUTTON'); ///Create a button to delete the div
+        var text = document.createTextNode("Clear");
         button.appendChild(text);
-        button.style.position = 'absolute';
-        button.style.left = 0;
+        // button.style.position = 'absolute';
+        button.style.right = 0;
         button.style.margin = "5px";
         button.style.padding = "3px";
         div.style.height = "160px";
@@ -149,14 +162,21 @@ $(function() {
         div.style.borderColor = "grey";
         div.style.overflowY = "scroll";
         $(div).addClass("inner").html("Node: " + node_info_map.get(evt.target.id()));
+
+        ///Add corresponding link of the protein group.
+        for (const [key, value] of Object.entries(host)) {
+            if (node_info_map.get(evt.target.id()) == key) {
+                div.innerHTML += "<br />" + "Link: " + "<a target='_blank' rel='noopener noreferrer' href='https://www.ncbi.nlm.nih.gov/protein/" + value + "?report=genpept'>NCBI Web</a>";
+            }
+        }
+        for (const [key, value] of Object.entries(virus)) {
+            if (node_info_map.get(evt.target.id()) == key) {
+                div.innerHTML += "<br />" + "Link: " + "<a target='_blank' rel='noopener noreferrer' href='https://www.ncbi.nlm.nih.gov/protein/" + value + "?report=genpept'>NCBI Web</a>";
+            }
+        }
         $('#info').append(div);
         $(div).append(button);
         var divs = document.getElementsByTagName('div');
-        for (let i = 0; i < divs.length; i++) {
-            if (divs[i].innerHTML.indexOf(evt.target) == -1) {
-
-            }
-        }
         $(document).on('click', ':button', function() {
             $(this).parent().remove();
         });

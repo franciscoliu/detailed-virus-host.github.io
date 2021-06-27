@@ -41,6 +41,7 @@ def transferJSON(file, name):
 # @para name, the final name of the output json
 
 def datatransfer(file, name):
+    infomap = {}
     text_list = []  
     protein_name = []       #the key of the dictionary later be used
     protein_link = []           #the value of the dictionary later be used
@@ -88,11 +89,15 @@ def datatransfer(file, name):
         
     for j in range(len(datadicts)):
         for k in range(len(datadicts[j][sub_folders[j]])):
-            datadicts[j][sub_folders[j]][k][protein_name[0]] = protein_link[0]
+            datadicts[j][sub_folders[j]][k][sub_folders[j] + ", " + protein_name[0]] = protein_link[0]
             protein_link.pop(0)                 #each time when the data is added to the dictionary, pop the element
             protein_name.pop(0)
-
-    transferJSON(datadicts, name)
+            
+    for i in range(len(datadicts)):
+        for j in range(len(datadicts[i][sub_folders[i]])):
+            infomap.update(datadicts[i][sub_folders[i]][j])         #Update the dictionary to a new dictionary
+            
+    transferJSON(infomap, name)
     
 hostfile= r'C:\Users\Administrator\Desktop\IMSP-Parser-master\IMSP-Parser-master\data\protein data\host protein'
 datatransfer(hostfile, "host.json")
